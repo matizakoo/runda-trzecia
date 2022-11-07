@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="runda-trzecia:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>runda-trzecia</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="runda-trzecia-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="runda-trzecia:war exploded" />
+    </root>
+  </artifact>
+</component>
